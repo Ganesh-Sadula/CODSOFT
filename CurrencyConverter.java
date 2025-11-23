@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class CurrencyConverter {
     public static void main(String[] args) {
        try(Scanner scanner = new Scanner(System.in)) {
-            // Step 1: Define some sample exchange rates (Base: USD)
+            // Step 1: Some sample exchange rates (Base: USD)
             HashMap<String, Double> rates = new HashMap<>();
             rates.put("USD", 1.0);       // Base currency
             rates.put("INR", 83.0);      // 1 USD = 83 INR
@@ -41,4 +41,5 @@ public class CurrencyConverter {
                
         }    
     }
+
 }
